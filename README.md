@@ -21,8 +21,13 @@ A personal portfolio website built using the MERN stack to showcase my skills, p
 
 ## Live Demo
 
-- **Frontend:** Add your deployed frontend URL here
-- **Backend:** Add your deployed backend URL here
+-
+## Live Demo
+
+- **Frontend:** https://mern-portfolio-eta-seven.vercel.app/
+- **Backend:** https://mern-portfolio-sf7s.onrender.com
+- **GitHub Repository:** https://github.com/rashiloya2803-ai/MERN-Portfolio
+
 
 ## Project Structure
 
