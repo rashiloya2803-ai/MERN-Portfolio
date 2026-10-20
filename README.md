@@ -1,14 +1,14 @@
 # MERN Portfolio
 
-A personal portfolio website built using the MERN stack to showcase my skills, projects, education, achievements, and resume.
+A personal portfolio website built using the MERN stack to showcase my skills, projects, education, achievements, certificates, and resume.
 
 ## Features
 
 - Responsive portfolio interface built with React and Vite
-- Interactive skills and project sections
-- Light/dark theme toggle
+- Interactive skills and projects sections
+- Light and dark theme toggle
 - Contact form integrated with a Node.js and Express backend
-- MongoDB database integration for storing contact messages
+- MongoDB integration for storing contact messages
 - Resume downloads in PDF and DOCX formats
 - Certificates and achievements section
 
@@ -21,29 +21,40 @@ A personal portfolio website built using the MERN stack to showcase my skills, p
 
 ## Live Demo
 
--
-## Live Demo
-
 - **Frontend:** https://mern-portfolio-eta-seven.vercel.app/
 - **Backend:** https://mern-portfolio-sf7s.onrender.com
 - **GitHub Repository:** https://github.com/rashiloya2803-ai/MERN-Portfolio
 
-
 ## Project Structure
 
-- `client/` — React frontend
-- `server/` — Express backend, database models, and resume files
+```text
+MERN-Portfolio/
+├── client/                 # React frontend
+│   ├── public/             # Images, certificates and assets
+│   ├── src/                # React components and styles
+│   ├── index.html
+│   └── package.json
+├── server/                 # Express backend
+│   ├── files/              # Resume files
+│   ├── models/             # MongoDB models
+│   ├── server.js
+│   └── package.json
+├── .gitignore
+└── README.md
+```
 
 ## Local Setup
 
 ### Prerequisites
 
-Install Node.js and npm. A MongoDB database is also required.
+- Node.js and npm
+- A MongoDB database, such as MongoDB Atlas
+- Git
 
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/rashiloya2803-ai/MERN-Portfolio.git
 cd MERN-Portfolio
 ```
 
@@ -56,7 +67,7 @@ npm install
 
 ### 3. Install backend dependencies
 
-Open another terminal at the project root and run:
+Open a separate terminal at the project root and run:
 
 ```bash
 cd server
@@ -65,18 +76,16 @@ npm install
 
 ### 4. Configure environment variables
 
-Create `server/.env` and add the environment variables required by your backend, using the names expected in `server.js`.
-
-For example:
+Create a `.env` file inside the `server/` directory and add the variables required by the backend.
 
 ```env
 PORT=5000
-MONGODB_URI=your_mongodb_connection_string
+MONGO_URI=your_mongodb_connection_string
 ```
 
-Never commit real credentials to GitHub.
+Replace the example database value with your own MongoDB connection string. Never commit real credentials to GitHub.
 
-### 5. Run the backend
+### 5. Start the backend
 
 From the `server/` directory, run:
 
@@ -84,9 +93,7 @@ From the `server/` directory, run:
 npm start
 ```
 
-If your `server/package.json` uses a different start script, use the script defined there.
-
-### 6. Run the frontend
+### 6. Start the frontend
 
 From the `client/` directory, run:
 
@@ -96,6 +103,8 @@ npm run dev
 
 Open the local URL displayed by Vite in your terminal.
 
+If the frontend requires an API URL environment variable, configure it according to the frontend code and Vite environment variable conventions.
+
 ## Author
 
-Rashi Loya
+**Rashi Loya**
