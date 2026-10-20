@@ -43,21 +43,23 @@ const projects = [
       },
     ],
   },
-  {
-    number: "02",
-    icon: "brain-circuit",
-    title: "Fake News Detection",
-    category: "Machine Learning",
-    description:
-      "A machine learning project for fake news detection using a dataset and a Jupyter Notebook.",
-    technologies: ["Python", "Machine Learning", "Pandas", "Jupyter Notebook"],
-    links: [
-      {
-        label: "GitHub",
-        url: "https://github.com/rashiloya2803-ai/fake-news-detection",
-      },
-    ],
-  },
+ 
+{
+  number: "02",
+  icon: "brain-circuit",
+  title: "Fake News Detection",
+  category: "Machine Learning",
+  description:
+    "A machine learning project for fake news detection using a dataset and a Jupyter Notebook.",
+  technologies: ["Python", "Machine Learning", "Pandas", "Jupyter Notebook"],
+  links: [
+    {
+      label: "GitHub",
+      url: "https://github.com/rashiloya2803-ai/fake-news-detection.git",
+    },
+  ],
+},
+
   {
     number: "03",
     icon: "database",
@@ -84,7 +86,7 @@ const projects = [
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/rashiloya2803-ai/business",
+        url: "https://github.com/rashiloya2803-ai/bussiness.git",
       },
     ],
   },
